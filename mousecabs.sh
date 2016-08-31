@@ -1,1 +1,1 @@
-gcc mousecnp.m -o mousecnp -ObjC -framework AppKit -framework CoreLocation
+gcc mousecabs.m -o mousecabs -ObjC -framework AppKit -framework CoreLocation

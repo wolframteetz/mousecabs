@@ -1,5 +1,5 @@
 # mousecabs
-Mouse coordinates and button state - Command line tool for Mac OS that prints the current mouse coordinates and button state
+Mouse coordinates and button state - Command line tool for Mac OS that prints the current mouse coordinates and button state - x, y, button - line by line. The same like "cliclick p" but including the button state of the mouse and with line-by-line formatting.
 
 Files
 
@@ -26,7 +26,13 @@ Mouse is at (608,1280) with no mouse button pressed
     1280
     1
     
-Mouse is at (608,1280) with left mouse button pressed
+Mouse is at (608,1280) with left mouse button pressed (make sure to "brew install cliclick" before)
+
+    cliclick p; ./mousecabs
+    Current mouse position: 841,1218
+    841
+    1218
+    0
 
 To constantly monitor the mouse state e.g. every second, install watch and run
 
@@ -51,5 +57,5 @@ Then, e.g.
     delay 8
     do shell script "/usr/local/bin/cliclick c:1143,904"
     delay 8
-^
+    ^C
     

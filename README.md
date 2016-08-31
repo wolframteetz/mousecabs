@@ -27,3 +27,8 @@ Mouse is at (608,1280) with no mouse button pressed
     1
     
 Mouse is at (608,1280) with left mouse button pressed
+
+To constantly monitor the mouse state e.g. every second, install watch and run
+    brew install watch
+    watch -n 1 ./mousecabs
+    
